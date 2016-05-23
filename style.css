@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	 background-color: black;
+	 color: white;
+	 font-family: "Inconsolata", slab-serif ;
+	 font-size: 24px;
+ }
+ 	
+.textone {
+	width: 500px;
+	height: 300px;
+	margin: 200px auto;
+	padding: 100px;
+	text-align: center;
+	}
+	
+.textone p {
+	margin-top: 100px;
+}
+
+.star {
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	float: left;
+	background-color: white;
+	transition: background-color 1s, height 1s, width 1s;
+}
+
+.star:hover {
+	transition: background-color 1s, height 1s, width 1s;
+	height: 20px;
+	width: 20px;
+	background-color: yellow;
+}
+
+.clear {
+	clear: left;
+	}
+
+.two {
+	position: relative;
+    left: 450px;
+	top: 5px;
+}
+
+.planetone {
+	background-color: #FF3A9B;
+	height: 100px;
+	width: 100px;
+	position:absolute;
+    top:10px;
+    right: 10px;
+	transition: background-color 1s, height 1s, width 1s;
+	
+}
+
+.planetone:hover {
+	transition: background-color 1s, height 1s, width 1s;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 10px;
+	right: 10 px;
+	background-color: #3CAED5;
+}
+
+.planetonetext {
+	font-size: 18px;
+	text-align: center;
+	font-family:"Orbitron", sans-serif;
+	transition: font-size 1s;
+}
+
+.planetonetext:hover {
+	font-size: 28px;
+	transition: font-size 1s;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2BFF17;
+	text-decoration: none;
+}
+
+.secondlink {
+	color: white;
+}
+
+.secondlink:hover {
+	color: #2BFF17;
+}
+
+.thirdlink {
+	font-family: "Orbitron", cursive;
+	font-size: 18px;
+	transition: font-size 1s, color 1s;
+	color: white;
+	text-decoration: none;
+}
+
+.thirdlink:hover {
+	font-size: 42px;
+	transition: font-size 1s, color 1s;
+	color: #2BFF17;
+	text-decoration: none;
+}
+
+.page3 {
+	background-color: #2BFF17;
+}
+
+.eyes {
+	background-color: black;
+	height: 200px;
+	width: 175px;
+	float: left;
+	
+}
+
+.firsteye{
+	margin: 200px;
+}
+
+.secondeye {
+	margin: 200px;
+}
+
+.textpage3 {
+	color: black;
+	float: left;
+	font-family: "Inconsolata", slab-serif;
+}
+
+.blink {
+	background-color: #2BFF17;
+}
+	
+.eyeslink:hover {
+	background-color: #FF3A9B;
+	
+	}
+	
+.blinking {
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	float: left;
+	clear: left;
+	position: relative;
+    left: 450px;
+	top: 5px;
+	background-color: yellow;
+}
+
+.blinkingpage2 {
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	float: left;
+	clear: left;
+	position: relative;
+    left: 450px;
+	top: 5px;
+	background-color: #FF3A9B;
+}
+
+.sizes {
+	font-family: "Stint Ultra Condensed", cursive;
+	font-size: 120px;
+	transition: font-size 1s, color 1s;
+}
+
+.shapes { 
+	font-family: "Megrim", cursive;
+	font-size: 40px;
+}
+
+.c {
+	color: #FF3A9B;
+}
+
+.o { 
+	color: #2BFF17;
+}
+.l {
+	color: yellow;
+}
+.r {
+	color: #3CAED5;
+}
+
+.s {
+	color: #FF8F2E;
+}
+
+.sizelink {
+	text-decoration: none;
+}
+
+.sizelink:hover {
+	color: #2BFF17;
+	font-size: 140px;
+	transition: font-size 1s, color 1s;
+	text-decoration: none;
+}
+
+.red {
+	color: red;
+}
+
+.brown {
+	color: #75511E;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.xlink:hover{
+	color: #2BFF17;
+	text-decoration: none;
+}
+
+.veggies {
+	color: #2BFF17;
+	text-decoration: none;
+}
+
+.veggies:hover {
+	color: #FF3A9B;
+}
+
+.beings {
+	color: #FF3A9B;
+	text-decoration: none;
+}
+
+.breakfast { font-family: "Inconsolata";
+			width: 300px;
+			margin: 0 auto;
+		
+}
+
+.menu { font-family: "Inconsolata";
+		text-align: center;
+}
+
+.menusquare {
+	height: 400px;
+	width: 350px;
+	background-color: #464646;
+	margin: 0 auto;
+}
+
+.weird {
+	text-align: center;
+	margin: 100px auto;
+}
+
+.weirdlink {
+	text-decoration: none;
+	color: white;
+}
+
+.weirdlink:hover {
+	color: #2BFF17;
+	text-decoration: none;
+}
+
+.earth {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #3CAED5;
+	
+}
+
+.earthling {
+	height: 100px;
+	width: 500px;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+.earth1 {
+	background-color: #2BFF17;
+	width: 20px;
+	height: 20px;
+}
+
+.float1 {
+	float: right;
+}
+
+.earth1left {
+	position: relative;
+    left: 50px;
+	top: 5px;
+}
+
+.earth2left {
+	position: relative;
+    left: 65px;
+	top: 0px;
+	width: 35px;
+	height: 40px;
+	
+}
+
+.galaxy {
+	font-family: "Codystar", cursive;
+	font-size: 50px;
+	transition: font-size 1s;
+}
+
+.galaxy:hover {
+	font-size: 65px;
+	transition: font-size 1s;
+}
+
+.beglink {
+	text-decoration: none;
+}
+
+.beglink:hover {
+	color: #2BFF17;
+}
+	
+	
